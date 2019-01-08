@@ -1,0 +1,29 @@
+body {
+    background-image: url('../img/bg2.jpg');
+    background-repeat: repeat-y;
+    background-size: cover
+}
+
+.form-bg {
+    border-radius: 10px;
+    background: rgba(36, 38, 39, 0.8);
+}
+
+label {
+    font-style: italic !important;
+    font-weight: bold !important;
+    color: ivory !important;
+}
+
+.ue {
+    margin: 10px;
+    color: #ffb300;
+}
+
+.resUe {
+    display: none;
+}
+
+input {
+    color: white;
+}
