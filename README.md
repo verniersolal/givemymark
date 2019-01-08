@@ -1,2 +1,2 @@
 # givemymark
-Pretty convenient interface used to compute quickly your mark
+Pretty convenient interface used to quickly compute your mark
