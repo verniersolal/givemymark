@@ -51,9 +51,9 @@ function fillResUE(id,mark){
 function computeMean(data) {
     var sum = 0;
     for (var i = 0; i < data.length; i++) {
-        sum += Number(data[i].value);
+        sum += Number(data[i].value.replace(/,/g, '.'));
     }
-    return (sum / data.length).toFixed(3);
+    return Number(sum / data.length).toFixed(3);
 }
 
 function computeFinalMark(ran,shs,ter,lang){
