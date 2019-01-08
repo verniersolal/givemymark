@@ -11,8 +11,8 @@ function compute() {
     }
     var meanRAN = computeMean(data.slice(0, 2));
     var meanInitSHS = computeMean(data.slice(2, 8));
-    var meanTER = data[8].value;
-    var meanLang = data[9].value;
+    var meanTER = Number(data[8].value.replace(/,/g, '.'));
+    var meanLang = Number(data[9].value.replace(/,/g, '.'));
     clearRes();
     fillResUE("ran",meanRAN);
     fillResUE("shs",meanInitSHS);
